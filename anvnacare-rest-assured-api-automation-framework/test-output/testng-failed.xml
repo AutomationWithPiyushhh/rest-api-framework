@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="anvnacare_apis.CrudOpsTest">
+      <class name="learning_postmethod.Deserialization">
         <methods>
-          <include name="deleteUser"/>
+          <include name="getUsers"/>
         </methods>
-      </class> <!-- anvnacare_apis.CrudOpsTest -->
+      </class> <!-- learning_postmethod.Deserialization -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
