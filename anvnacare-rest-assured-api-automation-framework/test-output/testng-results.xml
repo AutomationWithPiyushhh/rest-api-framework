@@ -1,25 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-10-22T10:34:57 IST" name="Default suite" finished-at="2026-10-22T10:35:03 IST" duration-ms="5986">
+  <suite started-at="2026-10-23T11:30:44 IST" name="Default suite" finished-at="2026-10-23T11:30:47 IST" duration-ms="2994">
     <groups>
     </groups>
-    <test started-at="2026-10-22T10:34:57 IST" name="Default test" finished-at="2026-10-22T10:35:03 IST" duration-ms="5986">
-      <class name="anvnacare_apis.CrudOpsTest">
-        <test-method signature="createUser()[pri:0, instance:anvnacare_apis.CrudOpsTest@16d04d3d]" started-at="2026-10-22T10:34:57 IST" name="createUser" finished-at="2026-10-22T10:35:01 IST" duration-ms="3901" status="PASS">
+    <test started-at="2026-10-23T11:30:44 IST" name="Default test" finished-at="2026-10-23T11:30:47 IST" duration-ms="2994">
+      <class name="learning_response_validation.DummyJsonTest">
+        <test-method signature="getProducts()[pri:0, instance:learning_response_validation.DummyJsonTest@3a93b025]" started-at="2026-10-23T11:30:44 IST" name="getProducts" finished-at="2026-10-23T11:30:47 IST" duration-ms="2953" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- createUser -->
-        <test-method signature="getUserByID()[pri:0, instance:anvnacare_apis.CrudOpsTest@16d04d3d]" started-at="2026-10-22T10:35:01 IST" name="getUserByID" finished-at="2026-10-22T10:35:02 IST" depends-on-methods="anvnacare_apis.CrudOpsTest.createUser" duration-ms="1026" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getUserByID -->
-        <test-method signature="deleteUser()[pri:0, instance:anvnacare_apis.CrudOpsTest@16d04d3d]" started-at="2026-10-22T10:35:02 IST" name="deleteUser" finished-at="2026-10-22T10:35:03 IST" depends-on-methods="anvnacare_apis.CrudOpsTest.getUserByID" duration-ms="1016" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- deleteUser -->
-      </class> <!-- anvnacare_apis.CrudOpsTest -->
+        </test-method> <!-- getProducts -->
+      </class> <!-- learning_response_validation.DummyJsonTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
